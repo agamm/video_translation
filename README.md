@@ -16,6 +16,8 @@ Hebrew,שלום, עולם
 English,Hello, World
 ```
 
+Download it as csv after you add the translation and timestamps.
+
 2. Edit the code:
 
 ```
