@@ -107,8 +107,13 @@ def add_newline_if_long(text):
                 index = i
                 break
         else:
-            # If no space or comma found, use the middle point
-            index = middle
+            for i in range(int(middle*0.75), middle):
+                if text[i] in (' ', ','):
+                    index = i
+                    break
+            else:
+                # If no space or comma found, use the middle point
+                index = middle
 
         # Split the text at the found index and insert a newline
         left_half = text[:index]
