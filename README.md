@@ -1,6 +1,6 @@
 ### Install
 
-`pip install moviepy`
+`pip install moviepy`  
 `pip install moviepy[optional]`
 
 - Make sure to have imagemagic installed
